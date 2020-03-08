@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // Runs just one time when the keyboard initializes.
 void matrix_init_user(void) {
-    rgb_matrix_sethsv(20,  UINT8_MAX, 127);
+    rgb_matrix_sethsv(0,  UINT8_MAX, 160);
 };
 
 // Runs constantly in the background, in a loop.
